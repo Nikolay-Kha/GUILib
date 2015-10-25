@@ -14,7 +14,8 @@ Features:
 ![](examples/photo1.jpg?raw=true)
 
 # Video demo
-https://youtu.be/sASculXDCO0
+https://youtu.be/sASculXDCO0  
+https://youtu.be/3Z_b-7wh14c  
 
 # Usage
 Attach library to your project (see FAQ section below). Include guilib/guilib.h. Mostly all that you need in this file. Now you can create one or few "screen" with function:  
