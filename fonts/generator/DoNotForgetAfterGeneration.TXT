@@ -1,0 +1,2 @@
+1) in .c file include theirown .h file
+2) in .h file include "fonts.h"
