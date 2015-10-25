@@ -45,7 +45,7 @@ To connect to this devices library implements hardware access layer (HAL) for SP
 
 # Overall diagram
 This scheme provides internal structure of library. You can use this information if you want to add another hardware support.
-![](examples/overview.png?raw=true)
+![](overview.png?raw=true)
 Hardware - it can be whatever you want which can be connected to your device in electrical way.  
 HAL - hardware access layer for your hardware interface, i.e driver for SPI or I2C or any other bus.  
 halProxy - connector between HAL and driver. Reimplementing this provides ability yo use another hardware interface.  
