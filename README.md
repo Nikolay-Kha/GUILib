@@ -64,7 +64,7 @@ But if you would like to create realy clean project:
 void guiEvent(View *view, GUITouchEventType type)  
 and now you can start programming your own graphic interface.  
 
-Q: How to change some view's value, for example label's text?
+Q: How to change some view's value, for example label's text?  
 A: Set pointer to new text in object->text field and repaint view with:  
 void GUI_drawView(View *view);  
 
@@ -91,7 +91,7 @@ wtich size equal sizeof(TS_CALIBRATION_DATA). Now restore this data to the same 
 Q: Can I draw something on screen?  
 A: Yes, sure. Screen repaintg is completly up to you, so you can use space without view drawing anything you want with methods from LCD driver for example.  
 
-Q: Do I need to calculate width and height each time manually for each view?
+Q: Do I need to calculate width and height each time manually for each view?  
 A: No, you can use GUI_CONTENT constant and size will be chosen in optimal way automatically.
 
 # Author
